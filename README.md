@@ -1,2 +1,2 @@
-# Web-develepment
+# Web-development
 Smart Ninja course
