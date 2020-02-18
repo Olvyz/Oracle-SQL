@@ -1,0 +1,16 @@
+p {
+    color:yelow;
+}
+#p1 {
+    color:red;
+}
+#p2 {
+    color:blue;
+}
+.grupa1 {
+    color:green;
+}
+.obrazek {
+    border: 10px black dotted;
+    padding: 5px;
+}
