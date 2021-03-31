@@ -1,2 +1,1 @@
-# Web-development
-Smart Ninja course
+# Udemy course Oracle SQL
