@@ -1,14 +1,14 @@
-select * from employees where first_name = 'David';
-select * from employees where job_id = 'FI_ACCOUNT';
-select first_name, last_name, salary, department_id from employees where department_id = 50 and salary > 4000;
-select * from employees where department_id = 20 or department_id = 30;
-select * from employees where first_name like '_a%a';
-select * from employees where (department_id = 50 or department_id = 80) and commission_pct is not null order by 4;
-select * from employees where lower (first_name) like '%n%n%';
-select * from employees where first_name like '_____%' order by department_id DESC nulls LAST;
-select * from employees where (salary BETWEEN 3000 and 7000) and commission_pct is null and job_id in ('PU_CLERK', 'ST_MAN', 'ST_CLERK');
-select * from employees where first_name like '%\%%' ESCAPE '\';
-select employee_id, job_id, first_name, salary from employees where employee_id >= 120 and job_id != 'IT_PROG' order by job_id, first_name DESC;
+SELECT * FROM employees WHERE first_name = 'David';
+SELECT * FROM employees WHERE job_id = 'FI_ACCOUNT';
+SELECT first_name, last_name, salary, department_id FROM employees WHERE department_id = 50 AND salary > 4000;
+SELECT * FROM employees WHERE department_id = 20 OR department_id = 30;
+SELECT * FROM employees WHERE first_name LIKE '_a%a';
+SELECT * FROM employees WHERE (department_id = 50 OR department_id = 80) AND commission_pct IS NOT null ORDER BY 4;
+SELECT * FROM employees WHERE lower (first_name) LIKE '%n%n%';
+SELECT * FROM employees WHERE first_name LIKE '_____%' ORDER BY department_id DESC nulls LAST;
+SELECT * FROM employees WHERE (salary BETWEEN 3000 AND 7000) AND commission_pct IS null AND job_id IN ('PU_CLERK', 'ST_MAN', 'ST_CLERK');
+SELECT * FROM employees WHERE first_name LIKE '%\%%' ESCAPE '\';
+SELECT employee_id, job_id, first_name, salary FROM employees WHERE employee_id >= 120 AND job_id != 'IT_PROG' ORDER BY job_id, first_name DESC;
 
 
 
