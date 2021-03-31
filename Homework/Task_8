@@ -1,0 +1,10 @@
+1. Display all information about the employees with the longest name
+2. Display all information about employees with a salary greater than the average salary of all employees
+3. Get the city / cities where employees earn the least in total
+4. Output out all the information about the employees from whom the manager receives a salary of more than 15,000
+5. Display all information about departments in which there is not a single employee
+6. Display all information about employees who are not managers
+7. Display all information about managers who have more than 6 employees under their supervision
+8. Output all information about the employees who work in the department called IT
+9. Display all information about employees whose managers got a job in 2005, but the employees themselves got a job before 2005
+10. Output all information about employees whose managers got a job in January of any year, and the length of the job_title of these employees is more than 15 characters
