@@ -1,0 +1,41 @@
+/*Display all information about the regions*/
+
+SELECT * FROM REGIONS;
+
+/*Display information about name, department id, salary and surname for all employees*/
+
+SELECT first_name, department_id, salary, last_name FROM employees;
+
+/*Display information about the employee's id, e-mail and the date that was a week before employment for all employees.*/ 
+/*Name the column that will contain the date One week before hire date.*/
+
+SELECT employee_id, email, (hire_date - 7) "One week before hire date" FROM employees;
+
+/*Output information about employees with their positions in the format: Donald (SH_CLERK). Name the column our_employees/
+
+SELECT first_name || '(' || job_id || ')' as "our_employees" FROM employees;
+
+/*Display a list of unique names among employees*/
+
+SELECT DISTINCT first_name FROM employees;
+
+/*Output the following information from the jobs table:*/
+/*- job_title,*/
+/*- expression in the format: "min = 20080, max = 40000", where 20080 is the minimum salary, and 40,000 is the maximum.*/
+/*Name this column info:*/
+/*- maximum salary and name the column max,*/
+/*- a new salary, which will be called new_salary and calculated by the formula: max_salary * 2-2000.*/
+
+SELECT job_title, 'min = ' || min_salary || ', max = ' || max_salary as info, max_salary as max, max_salary*2-2000 as new_salary FROM jobs;
+
+/*Display the sentence "Peter's dog is very clever" using one of two single quote techniques*/
+
+SELECT 'Peter''s dog is very clever' FROM dual;
+
+/*Display the sentence "Peter's dog is very clever" using a different technique from the previous example with single quotes*/
+
+SELECT q'<Peter's dog is very clever>' FROM dual;
+
+/*Display the number of minutes in one century (1 year = 365.25 days)*/
+
+SELECT 365.25*100*24*60 FROM dual;
