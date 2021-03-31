@@ -1,0 +1,13 @@
+1. Receive a report by department_id with the minimum and maximum salary, with the earliest and latest date of arrival at work and with the number of employees. 
+Sort by number of employees (descending)
+2. Output information about the first letter of the employee's name and the number of names that begin with this letter. Output strings for letters where the number of 
+names starting with it is greater than 1. Sort by number
+3. Output the department id, salary and the number of employees who work in the same department and receive the same salary
+4. Output the day of the week and the number of employees who were hired on that day
+5. Output the id of the departments in which more than 30 employees work and the amount of their salary is more than 300,000
+6. From the countries table, output all region_ids for which the sum of all letters of their countries is greater than 50
+7. Output information about job_id and the rounded average salary of workers for each job_id
+8. Get a list of department ids where employees of several (> 1) job_id are employed
+9. Output information about department, job_id, maximum and minimum salary for all combinations of department_id - job_id, where the average salary is more than 10000
+10. Get a list of manager_id whose average salary of all his subordinates who do not have commissions is in the range from 6000 to 9000
+11. Output the maximum salary rounded to thousands (not thousandths) among all average salaries by department
