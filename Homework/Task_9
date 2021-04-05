@@ -1,0 +1,9 @@
+1. Output in one report information about the sums of salary groups, grouped by manager id, job_id, department id. The report should contain 4 columns: manager id, job_id, 
+department id, summarized salary
+2. Output the id of those departments where manager no. 100 works and managers no. 145, 201 do not work
+3. Using SET operators and not using logical operators, display unique information about the names, surnames and salary of employees, the second character in whose names 
+is the letter "a" and the surname contains the letter "s" regardless of case. Sort the result by salary in descending order
+4. Using SET operators and not using boolean operators, output information about location id, postal code and city for locations located in Italy or Germany. 
+And also for locations, the postal code of which contains the number "9"
+5. Using SET operators and not using logical operators, output all the unique information for countries whose names are longer than 8 characters. 
+And also for countries that are not in the European region. Output columns must be named id, country, region. Sort output by country name in descending order
